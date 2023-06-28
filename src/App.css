@@ -36,3 +36,509 @@
     transform: rotate(360deg);
   }
 }
+
+.fondo {
+  background-image: url("./images/fron2.jpg");
+  overflow: hidden;
+  background-position: 0px -130px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  max-height: 100vh;
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+.fondo h2 {
+  display: block;
+  color:#f7f6fc;
+  margin-top: 25%;
+  margin-bottom: -3%;
+}
+
+.fondo p{
+  color: white;
+  font-size: 50px;
+  margin-bottom: 5%;
+}
+.fondo p a{
+  transition: all 300ms;
+}
+
+.layout-2 {
+  margin: 0 auto;
+  display: flex;
+  width: 85%;
+  margin-left: 10%;
+
+    width: 33%;
+
+}
+
+
+
+
+.imgcontacto{
+  flex-grow: 0;
+}
+
+.imgcontacto span{
+  font-size: 42vh;
+}
+
+.text-contacto{
+  flex-grow: 1;
+}
+
+.header {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  background-color: #3a3a3a;
+  color: antiquewhite;
+}
+
+.header .logo img {
+  display: block;
+  width: 66%;
+  height: 258px;
+}
+
+.header .logo {
+  display: block;
+  flex-grow: 1;
+  margin-right: -20%;
+}
+
+.header nav {
+  flex-grow: 5;
+}
+
+.header nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+
+.header li {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.header li a {
+  color: black;
+  text-decoration: none;
+  transition: all 300ms;
+  color: whitesmoke;
+}
+
+.header a:hover {
+  color: rgb(231 212 33);
+}
+
+.logo {
+  color: white;
+}
+
+.footer{
+  text-align: center;
+  font-size: 14px;
+  border-top: 3px solid black;
+  background-color: #3a3a3a;
+}
+.footer h5{
+  color: rgb(231 212 33);
+  font-size: 20px;
+  margin-bottom: -1%;
+}
+#menu-footer ul li {
+  list-style: none;
+}
+
+.footer{
+  display: flex;
+  color: whitesmoke;
+}
+
+.footer #menu-footer{
+  flex-grow: 1;
+  margin-top: -4%;
+}
+.footer #redes{
+  flex-grow: 1;
+}
+.footer #contacto{
+  flex-grow: 1;
+}
+
+#menu-footer img{
+  display: block;
+  width: 50%;
+  margin-left: 15%;
+  height: 258px;
+}
+
+#contacto p a{
+  text-decoration: none;
+  color: white;
+  transition: all 300ms;
+}
+
+#contacto p a:hover{
+  color: rgb(231 212 33);
+}
+
+.footer h2{
+  display: block;
+  color: rgb(231 212 33);
+}
+
+.icons-redes a{
+  font-size: 50px;
+  color:white;
+}
+.description{
+  width: 88%;
+  margin: 0 auto;
+}
+#titulo-letra{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(86, 86, 126);
+}
+
+#titulo-letra h2{
+  font-weight: bold;
+  color: rgb(24, 24, 131);
+}
+
+.skewed {
+  position: absolute;
+  top: 161vh;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 82vh;
+  overflow: hidden;
+  background: #f4f1ebdb;
+  z-index: -1;
+  transform: skewY(6deg);
+  transform-origin: top right;
+}
+
+.boxTwo{
+  display: flex;
+  margin-top: 15%;
+  margin-bottom: 5%;
+}
+
+.textbox2{
+  flex-grow: 1;
+  margin-right: 20%;
+}
+.imgtextvox2{
+  flex-grow: 1;
+  font-size: 250px;
+  margin-right: 15%;
+  margin-top: 5%;
+  height: 5%
+}
+
+#projects{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  flex-basis: 80%;
+  margin: 5% 5% 5% 15%;
+ 
+}
+
+.project{
+  flex-grow: 1;
+  flex-basis: 25%;
+  margin: 0px 20px 20px 0px;
+  border-radius: 5%;
+}
+
+.project img{
+  width: 100%;
+  transition: all 300ms;
+}
+.project img:hover{
+    color: #37bcf9;
+    transform: scale(1.2, 1.2);
+}
+
+
+.image-wrap img{
+  border-radius: 5%;
+ height: 200px;
+ width: 200px;
+}
+
+.project-info{
+  padding: 10px;
+}
+
+.project-info a{
+  font-size: 16px;
+  color: black;
+  transition: all 300ms;
+}
+
+.project-info a:hover{
+  color: rgb(194, 180, 49);
+}
+
+.project-info p{
+  color: grey;
+  font-size: 16px;
+}
+
+.container-contact{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+.log-contact{
+  font-size: 52px;
+  line-height: 96px;
+}
+
+.text-contacts{
+  position: absolute;
+  margin-top: 4vh;
+  margin-left: 1vh;
+  text-decoration: none;
+  color: #282c34;
+}
+
+.text-contacts:hover{
+  color: rgb(231 212 33);
+}
+
+.map{
+  margin-left: 50vh;
+  margin-top: 15vh;
+  width: 100vh;
+  height: 100px;
+}
+
+.card-caja{
+  display: block;
+  border: 2px solid rgba(10, 10, 10, 0.486);
+  width: 60%;
+  height: 170px;
+  border-radius: 1%;
+  margin: 5% 5% 5% 15%;
+}
+
+.text_title{
+  margin: 5% 5% 0% 5%;
+}
+
+.card-caja{
+  display: flex;
+  flex-direction: row;
+}
+
+.card-image img{
+  height: 150px;
+  width: 150px;
+  border-radius: 8%;
+  margin-top: 4%;
+  margin-left: 3%;
+}
+
+.fecha-card{
+  margin: 6% 6% 6% 15%;
+  font-size: 13px;
+}
+.titulo-card{
+  margin: 6% -25% 6% 15%;
+  font-weight: bold;
+  font-size: 30px;
+
+}
+.direccion-card{
+  margin: -5% 15% 6% 15%;
+  font-size: 13px;
+}
+
+.card-boton{
+  
+  height: 50px;
+  width: 50px;
+}
+
+.card-boton button{
+left: 50px;
+  height: 12vh;
+  width: 12vh;
+  background-color: lightblue ;
+  border-radius: 100%;
+}
+
+/*Estilos cards eventos*/
+.card{
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  flex-grow: 1;
+  
+}
+.card h2{
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: .5rem;
+  margin-top: 0;
+}
+.card{
+  border-radius: 20px;
+  box-shadow: 4px 4px 4px 3px #c9c2c2;
+  display: flex;
+  overflow: hidden;
+  width: 800px;
+  height: 39vh;
+  margin: 5% 5% 5% 0%;
+  margin-left: 40vh;
+}
+.card .ladoIzq{
+  color: white;
+  padding: 48px;
+  position: relative;
+  width: 65%;
+}
+
+.ladoIzq img{
+  height: 38vh;
+  border-radius: 5%;
+  margin-left: 15%;
+}
+.card .ladoIzq::after{
+  background: #000000d1;
+  border-radius: 24px;
+  box-shadow: 3px -2px 13px 0px #525252 ;
+  content: '';
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: skew(160deg,0);
+  transform-origin: top left;
+  width: 100%;
+  z-index: -1;
+}
+.card .ladoDer{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 12px;
+  width: 35%;
+}
+.card .cuerpo{
+  line-height: 150%;
+  text-align: center;
+}
+.card .centrahrz{
+  text-align: center;
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+  background-color: #b82e1f;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 18px;
+  padding: 14px;
+  transition: all 300ms;
+}
+
+.btn:hover{
+  transform: scale(1.2, 1.2);
+}
+
+
+
+/*Fin estilos eventos cards*/
+
+/*Estilos cards evento*/
+.flex-container {
+
+  display: flex;
+  flex-wrap: wrap; 
+  align-content: center;
+  flex-direction: row;
+  margin: 3% 5% 5% 18%;
+  height: 100%;
+  padding: 15px;
+  gap: 5px;
+
+}
+
+.item1 img {
+  width: 85%;
+  border-radius: 5%;
+}
+
+.flex-container > div{
+  border-radius: 5px;
+  padding: 8px;
+}
+
+
+.item1 { 
+  /* flex:1 1 auto; */
+  order:0;
+  flex-grow:1;
+  align-self:auto;
+}
+    
+.item2 { 
+  /* flex:0 1 auto; */
+  flex-grow:2;
+  flex-shrink:1;
+}
+
+.card-texto{
+  border-radius: 20px;
+  box-shadow: 4px 4px 4px 3px #c9c2c2;
+  background-color: #d6a93b17;
+  
+  width: 40vh;
+  height: 39vh;
+  margin: -4% 5% 5% -17%;
+}
+
+.card-texto h2, p{
+  margin-left: 2%;
+}
+
+.imagen1 img{
+  display: block;
+  width: 40%;
+  margin: -20% 0% 9% 3%;
+}
+
+.imagen2 img{
+  display: block;
+  width: 40%;
+  margin: -69% 0% 10% 45%;
+}
+    
+/*Fin Estilos cards evento*/
+
