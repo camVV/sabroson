@@ -21,6 +21,7 @@ export const RoutesSabro = () => {
         <HeaderNav/>
             <Routes>
                 <Route path="/" element={<Front/>}/>
+                <Route path="/sabroson" element={<Front/>}/>
                 <Route path="/articulo" element={<Articulo/>}/>
                 <Route path="/eventos" element={<Eventostest/>}/>
                 <Route path="/evento" element={<Evento/>}/>

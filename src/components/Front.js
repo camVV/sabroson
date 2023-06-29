@@ -11,7 +11,7 @@ export const Front = () => {
   return (
     <div className='front'>
    <div className='fondo' >
-      <h2>Jordy Producciones Eventos</h2>
+      <h2>Jordy Producciones Y Eventos</h2>
       <p><Link smooth to="#description"><FaArrowAltCircleDown/></Link></p>   
     </div>
     <div id='description'>
