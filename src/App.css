@@ -71,14 +71,28 @@
 .layout-2 {
   margin: 0 auto;
   display: flex;
-  width: 85%;
+  width: 100%;
   margin-left: 10%;
-
-    width: 33%;
 
 }
 
+.ladoizqContacto img{
+  width: 100%;
 
+}
+.cardContacto .ladoizqContacto::after{
+    background: none !important;
+    border-radius: none !important;
+    box-shadow: 3px -2px 13px 0px #525252 ;
+    content: none !important;
+    height: 100%;
+    width: 100%;
+  
+}
+
+.cuerpo-texto{
+  padding-left: 15px;
+}
 
 
 .imgcontacto{
@@ -662,7 +676,10 @@ font-size: 37px;
 @media (max-width: 666px) {
  .card {
   flex-direction: column;
-  max-height: 100%;
+  max-height: 76%;
+  width: 98%;
+  margin: 0px;
+  box-shadow: none;
  }
  .card .ladoDer{
   width: 100%;
@@ -675,7 +692,7 @@ font-size: 37px;
 }
 .card .ladoIzq{
   padding: 0px;
-  width: 263px;
+  width: 90%;
   
 }
 #menu-footer img{
@@ -689,8 +706,38 @@ font-size: 37px;
 .header .logo img{
   width: 126px !important;
 }
+.layout-2 {
+  font-size: 13px;
+}
+.imgcontacto span{
+  font-size: 26vh;
+}
+.imgcontacto{
+  margin-right: 2%;
+  margin-top: 5%;
+  margin-left: -3%;
+}
 
 }
+
+@media (max-width: 549px){
+  #projects{
+    width: 100%;
+    margin: 5% 5% 5% 2%;
+  }
+}
+
+@media (max-width: 449px){
+#projects{
+  width: 100%;
+}
+}
+
+@media (max-width: 420px){
+  .image-wrap{
+    margin: 5% 5% 5% 20%;
+  }
+  }
 
 @media(max-width: 488px){
   .footer{
@@ -698,18 +745,27 @@ font-size: 37px;
     
   }
   .footer #menu-footer{
-    width: 76px;
+    width: 0px;
+    margin-right: -31px;
   }
+  .footer{
+    font-size: 10px;
+  }
+  #menu-footer img{
+    display: none;
+  }
+  .flex-container{
+    margin: 0px;
+    width: 100%;
+  }
+  .project{
+    width: 100%;
+    margin: 0px 5px 20px 5px;
+  }
+
 }
 
-@media(max-width: 384px){
-  .card .ladoIzq{
-    width: 243px;
-  }
-  .btn{
-    margin-left: 8%;
-  }
-}
+
 
 @media (max-width: 750px) {
   *{
