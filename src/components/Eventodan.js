@@ -2,15 +2,23 @@ import React from 'react';
 import imagentest2 from '../images/grid5imagen.jpg';
 import imagenlogo1 from '../images/sabroson.png';
 import imgagenlogo2 from '../images/logo.png';
+import { Player } from 'video-react';
+import dan from '../images/dan.mp4';
 
 
 export const Eventodan = () => {
   return (
     <div class="flex-container">
-   
+   <link
+  rel="stylesheet"
+  href="https://video-react.github.io/assets/video-react.css"
+/>
     <div class="item1"><img src={imagentest2}></img></div>
     <div class="item2">
       <div className='card-texto'>
+      <Player>
+      <source src={dan} />
+    </Player>
         <h2>Paulito FG y Orqueta Dan Den de Cuba</h2>
         <p><samp className='bold-eventos-card-2'>Localización:</samp> C. Economía, 19, Theatre Sevilla</p>
         <p><samp className='bold-eventos-card-2'>Fecha del evento:</samp> Viernes 14 de Julio</p>

@@ -1,8 +1,9 @@
 import React from 'react';
-import imagentest from '../images/grid3imagen.jpg';
+
 import imagentest2 from '../images/grid4imagen.jpg';
 import imagentest3 from '../images/grid5imagen.jpg';
 import { NavLink } from "react-router-dom";
+import imagentest from '../images/28jul.jpg';
 
 export const Eventostest = () => {
   return (
@@ -40,12 +41,12 @@ export const Eventostest = () => {
         <div class="card">
         <div class="ladoIzq"> <img src={imagentest} alt="muestra"></img></div>
         <div class="ladoDer">
-          <h2 class="titulo">Marlon Araujo</h2>
+          <h2 class="titulo">La Salsoteca!</h2>
           <div class="cuerpo">
             <p>
-              <span className='bold-eventos-card'>Fecha:</span> Viernes 9 de Junio</p>
+              <span className='bold-eventos-card'>Fecha:</span> Viernes 28 de Julio</p>
            <p> 
-            <span className='bold-eventos-card'>Hora:</span> 23:00</p>
+            <span className='bold-eventos-card'>Hora:</span> 23:30</p>
             <p>
             <span className='bold-eventos-card'>Ubicacion:</span> Calle cromo 15</p>
           </div>  

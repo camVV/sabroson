@@ -410,6 +410,11 @@ left: 50px;
   background-color: lightblue ;
   border-radius: 100%;
 }
+/*Video*/
+
+
+/*Fin*/
+
 
 /*Estilos cards eventos*/
 
@@ -512,7 +517,7 @@ left: 50px;
 }
 
 .item1 img {
-  width: 85%;
+  width: 96%;
   border-radius: 5%;
 }
 
@@ -543,7 +548,7 @@ left: 50px;
   
   width: 60vh;
 
-  margin: -4% 5% 5% -17%;
+  
 }
 
 .card-texto h2, p{
@@ -581,7 +586,7 @@ left: 50px;
 @media (max-width: 2212px) {
 .card-texto{
   width: 60vh;
-  max-height: 81%;
+  height: auto;
 }
 }
 @media (max-width: 1350px) {
@@ -766,8 +771,8 @@ font-size: 37px;
     display: none;
   }
   .flex-container{
-    margin: 0px;
-    width: 100%;
+    margin: 1% 0% -4% 8%;
+    
   }
   .project{
     width: 100%;
