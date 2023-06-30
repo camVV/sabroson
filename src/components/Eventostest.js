@@ -46,7 +46,7 @@ export const Eventostest = () => {
             <p>
               <span className='bold-eventos-card'>Fecha:</span> Viernes 28 de Julio</p>
            <p> 
-            <span className='bold-eventos-card'>Hora:</span> 23:30</p>
+            <span className='bold-eventos-card'>Hora:</span> 23:0</p>
             <p>
             <span className='bold-eventos-card'>Ubicacion:</span> Calle cromo 15</p>
           </div>  
