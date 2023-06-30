@@ -78,6 +78,7 @@
 
 .ladoizqContacto img{
   width: 100%;
+  margin-left: 0% !important;
 
 }
 .cardContacto .ladoizqContacto::after{
@@ -226,8 +227,12 @@
   width: 88%;
   margin: 0 auto;
 }
+.description p{
+  font-size: 25px;
+}
 #titulo-letra{
   text-transform: uppercase;
+  margin-top: 5%;
   font-weight: bold;
   color: rgb(86, 86, 126);
 }
@@ -264,12 +269,10 @@
   flex-grow: 1;
   margin-right: 20%;
 }
-.imgtextvox2{
-  flex-grow: 1;
-  font-size: 250px;
-  margin-right: 15%;
-  margin-top: 5%;
-  height: 5%
+.imgtextvox2 img{
+ width: 95%;
+ border-radius: 10%;
+ margin: 7% 1% 1% -15%;
 }
 
 #projects{
@@ -683,7 +686,7 @@ font-size: 37px;
  }
  .card .ladoDer{
   width: 100%;
-  margin: 1% 1% 10% 1%;
+  margin: 1% 1% 10% 6%;
  }
  .ladoIzq img{
   width: 100%;
@@ -718,6 +721,10 @@ font-size: 37px;
   margin-left: -3%;
 }
 
+.centrahrz .btn{
+  width: 100%;
+}
+
 }
 
 @media (max-width: 549px){
@@ -736,6 +743,10 @@ font-size: 37px;
 @media (max-width: 420px){
   .image-wrap{
     margin: 5% 5% 5% 20%;
+  }
+  .fondo h2{
+    font-size: 20px;
+    margin-bottom: 3%;
   }
   }
 
@@ -868,9 +879,7 @@ font-size: 37px;
 }
 
 @media (max-width: 532px){
-  .inicio-barra{
-    display: none;
-  }
+
   .header nav ul li a{
     margin-right: -16px;
   }

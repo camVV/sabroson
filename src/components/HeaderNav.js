@@ -28,9 +28,9 @@ export const HeaderNav = () => {
             <li>
               <NavLink to="/eventos">Eventos</NavLink>
             </li>
-            <li>
+          {/*<li>
               <NavLink to="/discoteca">Discoteca</NavLink>
-            </li>
+  </li>*/}
             <li>
               <NavLink to="/contacto">Contacto</NavLink>
             </li>

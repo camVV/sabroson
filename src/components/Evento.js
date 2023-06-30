@@ -13,10 +13,10 @@ export const Evento = () => {
     <div class="item2">
       <div className='card-texto'>
         <h2>Marlon Araujo</h2>
-        <p><samp className='bold-eventos-card-2'>Localización:</samp> Calle cromo</p>
-        <p><samp className='bold-eventos-card-2'>Fecha del evento:</samp> Mayo 2023</p>
-        <p><samp className='bold-eventos-card-2'>Hora:</samp> 13:00</p>
-        <p><samp className='bold-eventos-card-2'>Contacto:</samp> 954888888</p>
+        <p><samp className='bold-eventos-card-2'>Localización:</samp> Calle cromo 15. El Sabroson</p>
+        <p><samp className='bold-eventos-card-2'>Fecha del evento:</samp> Viernes 9 Junio</p>
+        <p><samp className='bold-eventos-card-2'>Hora:</samp> 23:00</p>
+        <p><samp className='bold-eventos-card-2'>Contacto:</samp> 610 071 324 | 602 500 591 </p>
         <p><samp className='bold-eventos-card-2'>Patrocinado por:</samp></p> <div className='imagen1'><img src= {imagenlogo1}></img></div>
         <div className='imagen2'><img src={imgagenlogo2}></img></div>
       </div>
