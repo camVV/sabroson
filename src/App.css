@@ -643,7 +643,7 @@ left: 50px;
     transform-origin: none;   
   }
   .card h2{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
 }
 @media (max-width: 772px) {
