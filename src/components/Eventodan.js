@@ -9,10 +9,7 @@ import dan from '../images/dan.mp4';
 export const Eventodan = () => {
   return (
     <div class="flex-container">
-   <link
-  rel="stylesheet"
-  href="https://video-react.github.io/assets/video-react.css"
-/>
+
     <div class="item1"><img src={imagentest2}></img></div>
     <div class="item2">
       <div className='card-texto'>
