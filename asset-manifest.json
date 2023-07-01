@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/sabroson/static/css/main.e1241c1f.css",
-    "main.js": "/sabroson/static/js/main.c609cac9.js",
+    "main.css": "/sabroson/static/css/main.f2bdcf91.css",
+    "main.js": "/sabroson/static/js/main.039904db.js",
+    "static/media/dan.mp4": "/sabroson/static/media/dan.381e52e918dbd11bfe76.mp4",
     "static/media/sabroson.png": "/sabroson/static/media/sabroson.db2068dff130d0ac9ef9.png",
     "static/media/logo.png": "/sabroson/static/media/logo.63a9784df0e79ff52b43.png",
+    "static/media/28jul.jpg": "/sabroson/static/media/28jul.a4641a225e0fb475c86d.jpg",
     "static/media/grid5imagen.jpg": "/sabroson/static/media/grid5imagen.2e04ad4c27b9ebfade70.jpg",
     "static/media/grid4imagen.jpg": "/sabroson/static/media/grid4imagen.7028a2275ea932f0c3a2.jpg",
     "static/media/fron4.jpg": "/sabroson/static/media/fron4.f3485c19b3e312d96a48.jpg",
     "static/media/fron2.jpg": "/sabroson/static/media/fron2.7a244f504421b3ead7d7.jpg",
     "static/media/grid3imagen.jpg": "/sabroson/static/media/grid3imagen.8286fc62f5f50c19b886.jpg",
     "index.html": "/sabroson/index.html",
-    "main.e1241c1f.css.map": "/sabroson/static/css/main.e1241c1f.css.map",
-    "main.c609cac9.js.map": "/sabroson/static/js/main.c609cac9.js.map"
+    "main.f2bdcf91.css.map": "/sabroson/static/css/main.f2bdcf91.css.map",
+    "main.039904db.js.map": "/sabroson/static/js/main.039904db.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1241c1f.css",
-    "static/js/main.c609cac9.js"
+    "static/css/main.f2bdcf91.css",
+    "static/js/main.039904db.js"
   ]
 }
