@@ -654,7 +654,7 @@ left: 50px;
 @media (max-width: 772px) {
   .card-texto{
     width: auto;
-    margin: 1% 0% 2% -1%;
+    margin: 1% 0% 2% 2%;
     max-width: 90%;
     box-shadow: none;
     

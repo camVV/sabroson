@@ -2,6 +2,8 @@ import React from 'react';
 import imagentest2 from '../images/grid4imagen.jpg';
 import imagenlogo1 from '../images/sabroson.png';
 import imgagenlogo2 from '../images/logo.png';
+import { Player } from 'video-react';
+import d3 from '../images/3d.mp4';
 
 
 export const Evento3d = () => {
@@ -11,6 +13,9 @@ export const Evento3d = () => {
     <div class="item1"><img src={imagentest2}></img></div>
     <div class="item2">
       <div className='card-texto'>
+      <Player>
+      <source src={d3} />
+    </Player>
         <h2>3D Corazones y Leka El Poeta</h2>
         <p><samp className='bold-eventos-card-2'>Localización:</samp> Calle cromo 15, El Sabroson</p>
         <p><samp className='bold-eventos-card-2'>Fecha del evento:</samp> Viernes 7 de Julio</p>
