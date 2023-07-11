@@ -4,6 +4,7 @@ import imagenlogo1 from '../images/sabroson.png';
 import imgagenlogo2 from '../images/logo.png';
 import { Player } from 'video-react';
 import dan from '../images/dan.mp4';
+import { NavLink } from "react-router-dom";
 
 
 export const Eventodan = () => {
@@ -24,7 +25,11 @@ export const Eventodan = () => {
         <p><samp className='bold-eventos-card-2'>Precio:</samp> General 35€ | SuperVip 45€ </p>
         <p><samp className='bold-eventos-card-2'>Patrocinado por:</samp></p> <div className='imagen1'><img src= {imagenlogo1}></img></div>
         <div className='imagen2'><img src={imgagenlogo2}></img></div>
+        <div className='buttom-ticket'>
+        <NavLink to="https://www.monsterticket.es/comprar-entrada/?ee=2303"><span className='btn boton-comprar'> Comprar Entradas</span></NavLink>
+        </div>
       </div>
+      
     </div>
 
 </div>

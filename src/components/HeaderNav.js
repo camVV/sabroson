@@ -1,42 +1,55 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../images/logo.png";
 import {AiOutlineMenu} from 'react-icons/ai';
 
 
+
 export const HeaderNav = () => {
+
+  const [menu, setMenu] = useState (false);
+  const handleMenu = () =>{
+  setMenu( !menu );
+  console.log(menu);
+}
+
+
   return (
     <header className="header">
+        <div className="logo-menu">
         <div className="logo">
-        <NavLink to="/">Inicio<img src={logo}></img></NavLink>
-        </div>
+        <NavLink to="/"><img src={logo}></img></NavLink>
+       
+        <div className="button-menu">
+              <button className="navmovil menu-ul" onClick={handleMenu}>
+        <AiOutlineMenu /></button></div>
+
         <nav>
-          <ul>
-            <li className="navmovil"><AiOutlineMenu/>
-            <ul className="navmovilmenu">
-						<li>Submenu1</li>
-						<li>dsas</li>
-						<li>asfasd</li>
-						<li>sadasdas</li>
-					</ul>
-            
-            
-            </li>
-            <li className="inicio-barra">
+
+        <div className="escritorionavbar">
+            <p className="inicio-barra">
               <NavLink to="/">Inicio</NavLink>
-            </li>
-            <li>
+            </p>
+            <p>
               <NavLink to="/eventos">Eventos</NavLink>
-            </li>
+            </p>
           {/*<li>
               <NavLink to="/discoteca">Discoteca</NavLink>
   </li>*/}
-            <li>
+            <p>
               <NavLink to="/contacto">Contacto</NavLink>
-            </li>
-          </ul>
+            </p></div>
+       
+          <div className={`header-nav ${ menu ? 'isActivate' : ''}`}>
+          <ul className="navmovilmenu">
+            <li> <NavLink to="/">Inicio</NavLink></li>
+            <li><NavLink to="/eventos">Eventos</NavLink></li>
+            <li><NavLink to="/contacto">Contacto</NavLink></li>
+          </ul></div>
+            
+        
         </nav>
-
+        </div> </div>
     </header>
   );
 };
